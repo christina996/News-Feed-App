@@ -1,0 +1,39 @@
+.header {
+    background: var(--primary);
+    color: var(--secondary);
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 16px;
+
+    &__menu {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+
+        & li a {
+            display: block;
+            color: var(--secondary);
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: var(--fs-md);
+
+
+            &:hover,
+            &:active,
+            &:focus {
+                background-color: var(--secondary);
+                color: var(--primary);
+                border: 1px solid var(--primary);
+            }
+        }
+    }
+
+    &__logo {
+        & h1 {
+            font-size: var(--fs-xxxl);
+        }
+    }
+}

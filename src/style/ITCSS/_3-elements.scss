@@ -1,0 +1,52 @@
+// styling for bare HTML elements (like H1, A, header, footer, …).
+//  These come with default styling from the browser so we must to redefine them here.
+
+// override element styles
+
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0px;
+  width: 100%;
+  font-family: 'Josefin Sans', sans-serif;
+
+  * {
+    box-sizing: border-box;
+  }
+}
+
+button,
+a {
+  cursor: pointer;
+}
+
+h1 {
+  font-size: var(--fs-xxxl);
+
+}
+
+h2 {
+  font-size: var(--fs-xxl);
+
+}
+
+
+//scrollbar on the whole app
+
+*::-webkit-scrollbar {
+  width: 0.5em;
+  scroll-behavior: smooth;
+}
+
+*::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px transparent;
+  -webkit-box-shadow: inset 0 0 6px transparent;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: var(--primary);
+  background-clip: padding-box;
+  padding: 2px;
+  opacity: 0.2;
+}

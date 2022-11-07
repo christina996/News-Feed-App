@@ -1,0 +1,23 @@
+@import 'style/ITCSS/_0-settings';
+@import 'style/ITCSS/_1-tools';
+@import 'style/ITCSS/_2-generic';
+@import 'style/ITCSS/_3-elements';
+@import 'style/ITCSS/_4-objects';
+@import 'style/ITCSS/_5-components';
+@import 'style/ITCSS/_6-utilities';
+@import 'style/ITCSS/_7-layers';
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+

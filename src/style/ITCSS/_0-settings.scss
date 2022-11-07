@@ -1,0 +1,27 @@
+// used with preprocessor and contain font, colors definitions,
+//  etc. In this layer is common define the variables that can customize the template.
+
+$colors: (
+  'primary': #5b1bc3,
+  'secondary': #fff,
+  'primary-light': #f8f8ff,
+  'success': #00c02b,
+  'success-dark': #009d23,
+  'error': #d50000,
+  'error-dark': #ba0000,
+  'gray-light': #cccccc,
+  'gray-dark': #333333,
+  'border-gray': #aaaaaa,
+  'box-shadow': rgba(0, 0, 0, 0.2)
+);
+
+$fontSizes: (
+  fs-xs: 1rem,
+  fs-xxs: 1.2rem,
+  fs-s: 1.4rem,
+  fs-md: 1.6rem,
+  fs-lg: 1.8rem,
+  fs-xl: 2rem,
+  fs-xxl: 2.2rem,
+  fs-xxxl: 2.4rem,
+);

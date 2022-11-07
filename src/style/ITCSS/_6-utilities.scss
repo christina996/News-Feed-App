@@ -1,0 +1,16 @@
+// utilities and helper classes with ability to override anything which goes before in the triangle.
+
+// colors
+// create css variables
+:root {
+
+  @each $key,
+  $value in $colors {
+    --#{$key}: #{$value};
+  }
+
+  @each $key,
+  $value in $fontSizes {
+    --#{$key}: #{$value};
+  }
+}
