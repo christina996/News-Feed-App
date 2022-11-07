@@ -8,7 +8,7 @@
 
 ## Live Application URL
 
-[News Feed Website]()
+[News Feed Website](https://news-feed-app-repo.vercel.app/)
 
 # Packages
 
